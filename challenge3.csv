@@ -1,0 +1,16 @@
+TransactionID,Date,Product,Category,Amount,Quantity,CustomerID,StoreID
+1,2023-01-01,Laptop,Electronics,1200,1,101,1
+2,2023-01-03,Phone,Electronics,800,2,102,2
+3,2023-01-04,Tablet,Electronics,600,1,103,1
+4,2023-01-05,Laptop,Electronics,1200,1,104,3
+5,2023-01-06,Headphones,Accessories,150,2,105,2
+6,2023-01-07,Charger,Accessories,50,3,106,1
+7,2023-01-08,Mouse,Accessories,25,4,107,3
+8,2023-01-09,Keyboard,Accessories,75,1,108,2
+9,2023-01-10,Monitor,Electronics,300,2,109,1
+10,2023-01-11,Laptop,Electronics,1200,1,110,3
+11,2023-01-12,Phone,Electronics,800,1,111,2
+12,2023-01-13,Tablet,Electronics,600,2,112,1
+13,2023-01-14,Headphones,Accessories,150,1,113,3
+14,2023-01-15,Charger,Accessories,50,2,114,2
+15,2023-01-16,Mouse,Accessories,25,1,115,1

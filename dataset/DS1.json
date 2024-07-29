@@ -1,0 +1,44 @@
+{
+	"name": "DS1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "country2.csv",
+				"container": "sourcect"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "country_code_2_digit",
+				"type": "String"
+			},
+			{
+				"name": "country_code_3_digit",
+				"type": "String"
+			},
+			{
+				"name": "continent",
+				"type": "String"
+			},
+			{
+				"name": "population",
+				"type": "String"
+			}
+		]
+	}
+}
